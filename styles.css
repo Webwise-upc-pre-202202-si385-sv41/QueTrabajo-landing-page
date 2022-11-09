@@ -1,0 +1,67 @@
+#title{
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 80px;
+    padding: 30px;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 80px;
+    padding: 30px;
+}
+
+#subtitle{
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 50px;
+}
+
+.link{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.text{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+}
+
+.btn-primary{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+}
+
+.form-control{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+}
+
+.form-select{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 20px;
+}
+
+.mapa{
+    display:flex;
+    margin: auto;    
+    width: 1200px;
+    height: 450px;
+    
+}
+
+#searchbox{
+    box-sizing: border-box;
+    position: absolute;
+    width: 386px;
+    height: 52px;
+    left: 500px;
+    top: 90px;
+    background: #FFFFFF;
+    border: 2px solid #516A7B;
+    border-radius: 20px;
+}
+
+#logo{
+    box-sizing: border-box;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
