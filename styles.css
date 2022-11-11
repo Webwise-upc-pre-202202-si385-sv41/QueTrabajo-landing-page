@@ -23,6 +23,15 @@
     text-align: center;
 }
 
+.imgApp:first-child{
+    margin-left: 0px;
+    
+}
+.imgApp:last-child{
+    margin-left: 20px;
+    padding: 0;
+}
+
 h1{
     font-family: 'Big Shoulders Display', cursive; 
     font-size: 80px;
