@@ -1,16 +1,51 @@
 #title{
     font-family: 'Big Shoulders Display', cursive; 
     font-size: 80px;
-    padding: 30px;
+}
+
+/*cambios en index*/
+
+.nav-item{
+    width: 145px;
+    font-size: 23px;
+}
+
+.logo{
+    /*500x250*/
+    width: 300px;
+}
+.imgLlave{
+    padding-top: 20px;
+    width: 500px;
+    height: auto;
+}
+#title{
+    text-align: center;
 }
 
 h1{
     font-family: 'Big Shoulders Display', cursive; 
     font-size: 80px;
-    padding: 30px;
+    color:#2063ab  
+}
+
+h2{
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 50px;
+    color:#2063ab 
+}
+
+h3{
+    font-family: 'Bai Jamjuree', cursive; 
+    font-size: 30px;
+}
+
+.main_description{
+    padding: 150px;
 }
 
 #subtitle{
+    text-align: center;
     font-family: 'Big Shoulders Display', cursive; 
     font-size: 50px;
 }
@@ -22,6 +57,11 @@ h1{
 .text{
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 20px;
+}
+
+.big_text{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
 }
 
 .btn-primary{
@@ -39,12 +79,33 @@ h1{
     font-size: 20px;
 }
 
+.align_right{
+    text-align: right;
+    margin-right:20px;
+}
+
+.align_left{
+    text-align: left;
+    margin-left:20px;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+    align-content: center;;
+}
+
 .mapa{
     display:flex;
     margin: auto;    
     width: 1200px;
     height: 450px;
     
+}
+
+.container-fluid{
+    text-align: center;
+    align-items: center;
 }
 
 #searchbox{
@@ -64,4 +125,44 @@ h1{
     position: absolute;
     left: 50px;
     top: 50px;
+}
+
+.blue_container{
+  background-color:#2063ab ;
+  color:#FFFFFF;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lightblue_container{
+    background-color:#c3e4ff ;
+    margin: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+   
+}
+
+#Nosotros{
+    background-color:#FFFFFF;
+    padding:40px;
+    margin:0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer_container{
+    background-color:#2063ab ;
+    color:#FFFFFF;
+    padding:30px;
+
+}
+
+#contrast_link{
+    color:#FFFFFF;
+    text-decoration:none;
 }
