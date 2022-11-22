@@ -10,6 +10,11 @@
     font-size: 23px;
 }
 
+.nav-link:hover{
+    transform: translate(0,-2px);
+    transition-delay: 500ms;
+}
+
 .logo{
     /*500x250*/
     width: 300px;
@@ -21,15 +26,6 @@
 }
 #title{
     text-align: center;
-}
-
-.imgApp:first-child{
-    margin-left: 0px;
-    
-}
-.imgApp:last-child{
-    margin-left: 20px;
-    padding: 0;
 }
 
 h1{
@@ -104,12 +100,12 @@ h3{
     align-content: center;;
 }
 
-.mapa{
+#mapa{
     display:flex;
     margin: auto;    
     width: 1200px;
     height: 450px;
-    
+    top: 30pxs;
 }
 
 .container-fluid{
@@ -119,14 +115,13 @@ h3{
 
 #searchbox{
     box-sizing: border-box;
-    position: absolute;
+    position:relative;
     width: 386px;
     height: 52px;
-    left: 500px;
-    top: 90px;
     background: #FFFFFF;
     border: 2px solid #516A7B;
     border-radius: 20px;
+    margin:30px;
 }
 
 #logo{
@@ -174,4 +169,60 @@ h3{
 #contrast_link{
     color:#FFFFFF;
     text-decoration:none;
+}
+#BtnMostrar{
+    height: 52px;
+    left: 500px;
+    top: 30px;
+}
+#btnMapa{
+   text-align: right;
+}
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 200px;
+  width: 300px;
+  margin: 200px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: orange;
+}
+.clasificacion {
+  direction:initial;
+  unicode-bidi: bidi-override;
+}
+
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+.card:hover{
+    transform: translate(0%,-3%);
+    transition-duration:500ms;
+    cursor:pointer;
+    
+}
+
+#option1{
+    text-decoration: none;
+    color:dimgray;
+}
+#option2{
+    text-decoration: none;
+    color:dimgray;
 }
