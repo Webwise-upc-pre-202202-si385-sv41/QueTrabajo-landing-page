@@ -69,6 +69,48 @@ h3{
     font-size: 30px;
 }
 
+@media screen and (max-width: 800px){
+    .imgLlave{
+        max-width: 200px;
+    }
+    .logo{
+        max-width: 150px;
+        max-height: 75px;
+    }
+    .form-control{
+        max-width: 100%;
+        text-size-adjust:inherit;
+    }
+    .form-select{
+        max-width: 100%;
+        text-size-adjust:inherit;
+    }
+    h1{
+        font-size:50px;
+    }
+    h2{
+        font-size:30px;
+    }
+    h3{
+        font-size:20px;
+    }
+    .big_text{
+        font-size:20px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .main_description{
+        padding:10px;
+    }
+
+    #searchbox{
+        max-width: 85%;
+        margin-top: 0px;
+    }
+    
+}
+
 .btn-primary{
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 20px;
@@ -102,10 +144,10 @@ h3{
 
 #mapa{
     display:flex;
-    margin: auto;    
+    margin: auto;   
     width: 1200px;
     height: 450px;
-    top: 30pxs;
+    top: 30px;
 }
 
 .container-fluid{
@@ -122,6 +164,7 @@ h3{
     border: 2px solid #516A7B;
     border-radius: 20px;
     margin:30px;
+    margin-top:70px;
 }
 
 #logo{
@@ -215,7 +258,6 @@ input[type="radio"]:checked ~ label {
     transform: translate(0%,-3%);
     transition-duration:500ms;
     cursor:pointer;
-    
 }
 
 #option1{
