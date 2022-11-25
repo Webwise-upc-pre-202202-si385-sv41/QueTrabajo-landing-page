@@ -124,6 +124,8 @@ article {
 }
 
 .usuario{
+    width: 70%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -136,14 +138,45 @@ article {
     width: 70%;
 }
 
-article a{
-    text-decoration: none;
-    color:#2063AB;
+.input-datos{
+    height: 40vh;
 }
 
-.detalles {
-    font-style: normal;
-    font-weight: 700;
+.btn-c {
+    color:#083D5E;
+    background-color:#FFFFFF;
+    border: 2px solid #083D5E;
+}
+
+.userInput{
+    border: 3px solid #083D5E;
+    border-radius: 10px;
+    resize: none;
+    height: 30vh;
+    width: 70%;
+    font-size: 2em;
+}
+
+.firma .userInput{
+    height: 50px;
+    width: 50%;
+}
+
+.firma {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media(min-width:1000px){
+    article {
+    }
+    .usuarios{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .usuario{
+        width: 100%;
+    }
 }
 
 @media(max-width:720px){
@@ -153,6 +186,11 @@ article a{
     }
 
     .usuario img {
-        width: 70px;
+        width: 90px;
+    }
+
+    .usuario {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
