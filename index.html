@@ -3,9 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Registro</title>
+    <title>QueTrabajo | Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link href="styles.css" type="text/css" rel="stylesheet"/>
+    <link href="public/assets/styles/styles.css" type="text/css" rel="stylesheet"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="public/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/assets/images//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/assets/images//favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Big+Shoulders+Display&display=swap');
@@ -16,7 +20,7 @@
         <nav class="navbar navbar-expand-lg navbar-white bg-white">
             <div class="container-fluid">
                 <a href="index.html">
-                    <img src="img/quetrabajo_logo.png" alt="Logo" width="300" height="150">
+                    <img class="logo" src="public/assets/images/quetrabajo_logo.png" alt="Logo" width="300" height="150">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#miLista" aria-controls="miLista" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,10 +37,10 @@
                             <a class="nav-link " href="#Contactanos">Contáctanos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="signup.html">Regístrate</a>
+                            <a class="nav-link " href="public/signup.html">Regístrate</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="signin.html">Inicia Sesión</a>
+                            <a class="nav-link " href="public/signin.html">Inicia Sesión</a>
                         </li>
                     </ul>
                 </div>
@@ -45,47 +49,34 @@
     </header>
         
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <img class="imgLlave"src="img/llave_homepage.png">
+                <div class="col-lg-4 col-md-5 col-sm-12">
+                    <img class="imgLlave"src="public/assets/images/llave_homepage.png">
                 </div>
 
-                <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="col-lg-8 col-md-7 col-sm-12">
                     <div class="main_description">
                         <center>
                             <h1>¿SE AVERIÓ ALGO EN CASA?</h1>
                             <h2>¡Te conseguimos al especialista que necesitas!</h2>
-                            <div class="text">
-                                    <br><h3>Somos la red más confiable de trabajadores de</h3>
-                                    <h3>mantenimiento del hogar</h3></br>
-                                    <a class="btn btn-primary" href="signin.html" type="button" style="width:300px; margin-block-end: 1%">Solicita un servicio</a>   
-                            </div>
+                            <br><h3>Somos la red más confiable de trabajadores de mantenimiento del hogar</h3></br>
+                            <a class="btn btn-primary" href="public/signin.html" type="button" style="width:300px; margin-block-end: 1%">Solicita un servicio</a>   
                         </center>
                     </div>
-
                 </div>
             </div>
            
             <div class="row" id="row-Descarga">
-                <div class="align_left">
+                <div class="col-md-6 col-sm-12"  style="margin-top: 20px; padding-left: 40px;">
                     <p class="text">Descarga la app</p>
-                </div>
-                
-                <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
-                    <div class="">
-                        <img class="imgApp" src="img/image 5.png" alt="GooglePlay">
-                    </div>
-                    <div class="">
-                        <img class="imgApp" src="img/image 6.png" alt="AppStore">
-                    </div>
+                    <img class="img-fluid" src="public/assets/images/image 5.png" alt="GooglePlay">
+                    <img class="img-fluid" src="public/assets/images/image 6.png" alt="AppStore">
                 </div>
 
-                <div class="col-lg-9 col-md-6 col-sm-12">
-                    <div class="d-flex justify-content-end">
-                        <p class="text">
+                <div class="col-md-6 col-sm-12">
+                        <p class="text" style="text-align: right; margin:20px;">
                             ¿Tienes  experiencia en servicios de mantenimiento?
                             <br><a href="worker_register.html">¡Trabaja con nosotros!</a></br>
                         </p>
-                    </div>  
                  </div>
             </div>
         
@@ -96,61 +87,32 @@
     
     <div class="blue_container">
             <div class="row" id="row-Nosotros">
-                <div class="col-md-4">
+                <div class="col-lg-5">
                     <div class="align_left">
                         <h1><a id="Nosotros">NOSOTROS</a></h1>
+                        <div class="big_text" style="margin: 40px;">
+                            <br>Nuestro objetivo es ayudarte a encontrar al trabajador
+                            que necesitas</br> 
+                        </div>
+                        <p class="big_text" style="margin: 40px;">
+                            <img class="icon" src="public/assets/images/🦆 icon _alarm_.png"> 
+                            De forma Rapida
+                        </p>
+                        <p class="big_text" style="margin: 40px;">
+                            <img class="icon" src="public/assets/images/🦆 icon _lock locked_.png"> 
+                            Con la mayor seguridad
+                        </p>
+                        <p class="big_text" style="margin: 40px;">
+                            <img class="icon" src="public/assets/images/🦆 icon _location pin_.png"> 
+                            Donde sea que te encuentres
+                        </p>
                     </div> 
                 </div>
 
-                <div class="col-md-8">
-
-                    <div class="align_left">
-                        <p class="big_text"> 
-                        </br>Nuestro objetivo es ayudarte a encontrar al trabajador
-                        que necesitas</br>
-                        </p>
-                        <br> <br>
+                <div class="col-lg-7" style="padding:40px">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="90%" height="500px" src="https://www.youtube.com/embed/d9P-qExu2Zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-
-                    <div class="row" id="row-Alarma">
-                        <div class="col-md-6">
-                            <div class="align_left">
-                                <p class="big_text">
-                                    <img src="img/🦆 icon _alarm_.png"> 
-                                    De forma Rapida
-                                </p>
-                        </div>
-                        </div>
-                    </div> 
-                
-
-                    <br> 
-
-                    <div class="row" id="row-Seguridad">
-                        <div class="col-md-6">
-                            <div class="align_left">
-                                <p class="big_text">
-                                    <img src="img/🦆 icon _lock locked_.png"> 
-                                    Con la mayor seguridad
-                                </p>
-                            </div>
-                        </div>  
-                    </div>
-
-                    <br>
-
-                    <div class="row" id="row-Localizacion">
-                        <div class="col-md-6">
-                            <div class="align_left">
-                                <p class="big_text">
-                                    <img src="img/🦆 icon _location pin_.png"> 
-                                    Donde sea que te encuentres
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <br> <br>
                 </div>
             </div>
         </div>
@@ -163,29 +125,27 @@
             </div> 
 
                     <div class="col-lg-5 col-md-6 col-sm-12">
-                        <div class="align_left">
-                            <p class="big_text" style="padding: 40px;"><br>Nuestros clientes son lo más importante. Escríbenos y nuestro equipo te atenderá con 
-                                gusto lo antes posible.</p></br>
-                        </div>
+                        <p class="big_text" style="padding: 40px; text-align: justify;">
+                            Nuestros clientes son lo más importante. Escríbenos y nuestro equipo te atenderá con 
+                            gusto lo antes posible.
+                        </p>
                     </div> 
                     <div class="col-lg-7 col-md-6 col-sm-12">
                         <div class="lightblue_container">
                             <div class="mb-3">
-                                <input type="form-control" class="form-control" id="nombre" placeholder="Nombres y apellidos" style="width: 870px;">
+                                <input type="form-control" class="form-control" id="nombre" placeholder="Nombres y apellidos" >
                             </div>
                             <div class="mb-3">
-                                <input class="form-control" id="correo" placeholder="Correo electrónico" style="width: 870px;">
+                                <input class="form-control" id="correo" placeholder="Correo electrónico" >
                             </div>
                             <div class="mb-3">
                                 <input type="form-control" class="form-control" id="celular" placeholder="Celular" style="width: 370px;">
                               </div>
                             <div class="mb-3">
-                                <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje" style="width: 870px;"></textarea>
+                                <textarea class="form-control" id="mensaje" rows="3" placeholder="Escriba su mensaje" ></textarea>
                             </div>
                             <div class="mb-3">
-                                <div class="align_right">
-                                    <input type="submit" text="Enviar" class="btn btn-primary btn-lg">
-                                </div>
+                                    <input type="submit" text="Enviar" class="btn btn-primary btn-lg">                           
                             </div>
                         </div>
                         
@@ -202,26 +162,25 @@
                     </div>
                     <div class="row mt-4">
                         <div class="col">
-                            <img src="img/Ellipse 1.png" alt="Usuario">
-                            <p class="text" style="font-weight: bold;"><br>Juan Carlos Wong</br></p>
-                            <p class="text" style="padding:20px">
+                            <img src="public/assets/images/Ellipse 1.png" alt="Usuario">
+                            <p class="text" style="font-weight: bold;">Juan Carlos Wong</p>
+                            <p class="text">
                                 Aplicacion recomendada. Los  trabajadores tienen
-                                experiencia y sonamables.
+                                experiencia y son amables.
                             </p>
                         </div>
                         <div class="col">
-                            <img src="img/Ellipse 2.png" alt="usuario">
-                            <p class="text" style="font-weight: bold;"><br>Ana Patricia Cueva</br></p>
-                            <p class="text" style="padding:20px">
-                                Es una aplicacion, muy práctica
-                                recomiendo utilizarla.
+                            <img src="public/assets/images/Ellipse 2.png" alt="usuario">
+                            <p class="text" style="font-weight: bold;">Ana Patricia Cueva</p>
+                            <p class="text">
+                                Es una aplicacion, muy práctica recomiendo utilizarla.
                                 ¡No se van a arrepentir!
                             </p>
                         </div>
                         <div class="col">
-                            <img src="img/Ellipse 3.png" alt="Usuario">
-                            <p class="text" style="font-weight: bold"><br>Jose Manuel Delgado </br></p>
-                            <p class="text" style="padding:20px">
+                            <img src="public/assets/images/Ellipse 3.png" alt="Usuario">
+                            <p class="text" style="font-weight: bold">Jose Manuel Delgado</p>
+                            <p class="text">
                                 Me parece una buena forma de generar ingresos.
                                 He ganado muchos clientes.
                             </p>
@@ -236,19 +195,21 @@
             <div class="footer_container">
                 <div class="row">
                     <div class="col-lg-5 px-12">
-                        <h2 style="color:white">Sé parte de Quetrabajo</h2>
+                        <h2 style="color:white">Sé parte de QueTrabajo</h2>
                         <p class="text">
-                            <a href="signup.html" id="contrast_link"><br>Regístrate</br></a>
-                            <a href="signin.html" id="contrast_link"><br>Inicia Sesión</br></a>
-                            <a href="#Nosotros" id="contrast_link"><br>Nosotros​</br></a>
+                            <a href="signup.html" id="contrast_link">Regístrate<br></a>
+                            <a href="signin.html" id="contrast_link">Inicia Sesión<br></a>
+                            <a href="#Nosotros" id="contrast_link">Nosotros​<br></a>
                         </p>
                     </div>
                     <div class="col-lg-4 px-12">
                         <h2 style="color:white">Contáctanos</h2>
-                            <p class="text">contactanos@quetrabajo.com <br>(+51)999 888 777</p>
+                            <p class="text">
+                                contactanos@quetrabajo.com <br>
+                                (+51)999 888 777
+                            </p>
+                            
                     </div>
-                    
-
                     <div class="col-lg-3 px-12">
                         <h2 style="color:white">Ayuda</h2>
                            <p class="text">
