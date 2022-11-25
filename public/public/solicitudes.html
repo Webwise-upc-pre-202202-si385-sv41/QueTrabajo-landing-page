@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="assets/styles/styles.css" type="text/css" rel="stylesheet"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images//favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Big+Shoulders+Display&display=swap');
+    </style>
+    <title>Mis Solicitudes Pendientes</title>
+</head>
+<body>
+    <header>
+
+        <div class="menu-ico" id="icon_menu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="45" height="45" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <line x1="4" y1="6" x2="20" y2="6"></line>
+                <line x1="4" y1="12" x2="20" y2="12"></line>
+                <line x1="4" y1="18" x2="20" y2="18"></line>
+             </svg>
+        </div>
+
+        <div class="container-menu">
+            <div class="usuario-menu">
+                <center>
+                <img src="assets/images/Ellipse 1.png" alt="imgUsuario">
+                <h3>Juan Carlos Wong</h3>
+                </center>
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Mi perfil</a></li>
+                        <li><a href="solicitudes.html">Mis solicitudes pendientes</a></li>
+                        <li><a href="#">Historial de servicios</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Configuracion</a></li>
+                        <li><a href="#">Ayuda</a></li>
+                        <li><a href="signin.html">Salir</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    
+    <main>
+        <article>
+            <h1 style="text-align: left;">Mis Solicitudes Pendientes</h1>
+            <section id="solicitudes-enviadas">
+                <h2 style="text-align: left;">Solicitudes Enviadas</h2>
+                <div class="carta">
+                    <div class="carta-izq">
+                        <div class="usuario">
+                            <img src="assets/images/Ellipse 2.png" alt="imgUsuario">
+                            <div class="datos" style="text-align: left;">
+                                <h3>Andrea Quispe Vargas</h3>
+                                <p>Pintor</p>
+                            </div>
+                        </div>
+                        <div class="text" style="text-align: left; padding: 20px;">
+                            <p>Solicitud Enviada: 20/08/2022<br>
+                            Estado: Cotizado<br>
+                            <a href="#">Ver Detalles</a> 
+                            </p>
+                        </div>  
+                    </div>
+                    <div class="carta-der">
+                        <h4>S/53.00</h4>
+                        <button onclick="location.href='contract.html'">Pagar</button>
+                        <button>Chat</button>
+                    </div>
+                </div>
+    
+            </section>
+            <section id="solicitudes-aprobadas">
+                <h2 style="text-align: left;">Solicitudes Aprobadas</h2>
+                <div class="carta">
+                    <div class="carta-izq">
+                        <div class="usuario" style="text-align: left;">
+                            <img src="assets/images/Ellipse 3.png" alt="imgUsuario">
+                            <div class="datos">
+                                <h3>Jose Luis Gomez</h3>
+                                <p>Pintor</p>
+                            </div>
+                        </div>
+                        <div class="text" style="text-align: left; padding: 20px;">
+                            <p>Solicitud Enviada: 20/08/2022<br>
+                            Estado: Cotizado<br>
+                            <a href="#">Ver Detalles</a>    
+                            </p>
+                        </div>  
+                    </div>
+                    <div class="carta-der">
+                        <button>Chat</button>
+                    </div>
+                </div>
+    
+            </section>
+        </article>
+    </main>
+    <footer>
+        
+    </footer>
+    <script type="text/javascript" src="assets/scripts/function.js"></script>
+</body>
+
+</html>
