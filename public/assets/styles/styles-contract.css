@@ -35,8 +35,8 @@ ul{
     padding: 0;
 }
 
-button{
-    padding: 5px 10px;
+button{ 
+    padding: 5px 10px; 
     border-radius: 10px;
     border: none;
     font-size: 1.25em;
@@ -142,7 +142,7 @@ article {
     height: 40vh;
 }
 
-.btn-c {
+#btn-c {
     color:#083D5E;
     background-color:#FFFFFF;
     border: 2px solid #083D5E;
@@ -168,8 +168,6 @@ article {
 }
 
 @media(min-width:1000px){
-    article {
-    }
     .usuarios{
         display: flex;
         justify-content: space-evenly;
