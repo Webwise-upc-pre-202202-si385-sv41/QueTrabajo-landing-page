@@ -17,11 +17,44 @@
     </head>
   <body>
     <header>
+      <div class="menu-ico" id="icon_menu">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="45" height="45" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <line x1="4" y1="6" x2="20" y2="6"></line>
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="18" x2="20" y2="18"></line>
+         </svg>
+    </div>
+
+    <div class="container-menu">
+        <div class="usuario-menu">
+            <center>
+            <img src="assets/images/Ellipse 1.png" alt="imgUsuario">
+            <h3>Juan Carlos Wong</h3>
+            </center>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Mi perfil</a></li>
+                    <li><a href="solicitudes.html">Mis solicitudes pendientes</a></li>
+                    <li><a href="#">Historial de servicios</a></li>
+                    <li><a href="#">Preguntas frecuentes</a></li>
+                    <li><a href="#">Configuracion</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="signin.html">Salir</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <container style="padding-left: 40px;">
         <div class="header-content">
             <div id="titulo">
                 <h1 style="text-align:left; margin-top:40px;margin-left:30px;">Solicitud Enviada</h1>
             </div>
         </div>
+        </container>
+
    </header>
 
 
@@ -33,11 +66,11 @@
    <section class="workerinfo">
     <div class="row"> 
        <div class="col-lg-2 col-md-2 col-sm-12" >
-        <img src="assets/images/Carpintero.jpg" style="padding-left:30px">
+        <img src="assets/images/img2.jpg" style="padding-left:30px">
        </div>
       <div class="col-lg-10 col-md-10 col-sm-12" style="text-align: left">
-        <h3 class="nombre" style="padding-left:50px">Leonidas Loli</h3>
-        <p class="text" style="padding-left:50px">Carpintero</p>
+        <h3 class="nombre" style="padding-left:30px">Andres Quispe Vargas</h3>
+        <p class="text" style="padding-left:30px">Pintor</p>
       </div>
      </div>
    </section>
@@ -59,9 +92,11 @@
     </div>
 
     <center>
-        <a class="btn btn-primary " href="sent-request.html" type="button" style="width:300px; margin-block-end: 1%">Mis Solicitudes Pendientes</a>       
+        <a class="btn btn-primary " href="solicitudes.html" type="button" style="width:300px; margin-block-end: 1%">Mis Solicitudes Pendientes</a>       
         <br><a class= "link" href="search.html">Volver a Búsqueda</a>
     </center>
 
   </body>
+  <script type="text/javascript" src="assets/scripts/function.js"></script>
+
 </html>
